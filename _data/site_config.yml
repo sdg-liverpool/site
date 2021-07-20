@@ -20,8 +20,8 @@ breadcrumbs:
       label: menu.updates
 contrast_type: default
 country:
-  name: Australia
-  adjective: Australian
+  name: Liverpool
+  adjective: Liverpool
 create_goals:
   layout: goal-by-target-vertical
   previous_next_links: false
