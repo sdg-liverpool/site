@@ -100,10 +100,10 @@ frontpage_cards:
     button_link: 'https://example.com'
     rule_color: ''
 frontpage_goals_grid:
-  title: Our data for Sustainable Development Goal indicators
+  title: Liverpool data for Sustainable Development Goal indicators
   description: >-
-    Click on each goal for our Sustainable Development Goal global indicator
-    data.
+    Click on each goal for Liverpool statistics for Sustainable Development Goal
+    global indicators.
 frontpage_heading: ''
 frontpage_instructions: ''
 frontpage_introduction_banner:
@@ -199,13 +199,13 @@ metadata_tabs: []
 news:
   category_links: false
 non_global_metadata: indicator.national_metadata
-remote_data_prefix: 'https://ameliaburnham.github.io/data/'
+remote_data_prefix: 'https://sdg-liverpool.github.io/data/'
 reporting_status:
   title: status.reporting_status
   description: status.description
   disaggregation_tabs: false
-repository_url_data: 'https://github.com/ameliaburnham/data'
-repository_url_site: 'https://github.com/ameliaburnham/site'
+repository_url_data: 'https://github.com/sdg-liverpool/data'
+repository_url_site: 'https://github.com/sdg-liverpool/site'
 search_index_boost: []
 search_index_extra_fields: []
 series_toggle: true
@@ -213,7 +213,7 @@ sharethis_property: ''
 site_config_form:
   enabled: true
   dropdowns: []
-  repository_link: 'https://github.com/ameliaburnham/site/tree/develop/_data'
+  repository_link: 'https://github.com/sdg-liverpool/site/tree/develop/_data'
   translation_link: ''
 validate_indicator_config: false
 validate_site_config: false
