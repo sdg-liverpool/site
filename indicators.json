@@ -86,14 +86,6 @@
           "status": "notstarted"
         },
         {
-          "id": "1-5-1 meta",
-          "title": "global_indicators.1-5-1 meta-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-5-1 meta",
-          "status": "notstarted"
-        },
-        {
           "id": "1-a-1",
           "title": "Total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income",
           "description": "",
@@ -403,7 +395,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/3-9-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-9-3",

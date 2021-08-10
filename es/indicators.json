@@ -86,14 +86,6 @@
           "status": "notstarted"
         },
         {
-          "id": "1-5-1 meta",
-          "title": "global_indicators.1-5-1 meta-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/1-5-1 meta",
-          "status": "notstarted"
-        },
-        {
           "id": "1-a-1",
           "title": "Total de las subvenciones de asistencia oficial para el desarrollo de todos los donantes que se centran en la reducción de la pobreza como porcentaje del ingreso nacional bruto del país receptor",
           "description": "",
@@ -399,11 +391,11 @@
         },
         {
           "id": "3-9-2",
-          "title": "Tasa de mortalidad atribuida al agua insalubre, el saneamiento deficiente y la falta de higiene (exposición a servicios insalubres de agua, saneamiento e higiene para todos (WASH))",
+          "title": "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)",
           "description": "",
           "keywords": "",
           "href": "/site/es/3-9-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-9-3",
