@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210811101513">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210811110747">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -536,7 +536,7 @@ data-event-label="high"
   data-stackeddisaggregation=""
   data-graphannotations="[]"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Gender&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Boys&quot;,&quot;Girls&quot;]},&quot;title&quot;:&quot;Gender&quot;},{&quot;name&quot;:&quot;Learning category&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Prime areas of learning&quot;,&quot;Specific areas of learning&quot;]},&quot;title&quot;:&quot;Learning category&quot;},{&quot;name&quot;:&quot;Learning sub-category (higher)&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Communication and Language&quot;,&quot;Expressive arts and design&quot;,&quot;Literacy&quot;,&quot;Mathematics&quot;,&quot;Personal, Social and Emotional Development&quot;,&quot;Physical Development&quot;,&quot;Understanding the world&quot;]},&quot;title&quot;:&quot;Learning sub-category (higher)&quot;},{&quot;name&quot;:&quot;Learning sub-category (lower)&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;10: Writing&quot;,&quot;11: Numbers&quot;,&quot;12: Shape, space and measures&quot;,&quot;13: People and communities&quot;,&quot;14: The World&quot;,&quot;15: Technology&quot;,&quot;16: Exploring and using media and materials&quot;,&quot;17: Being imaginative&quot;,&quot;1: Listening and Attention&quot;,&quot;2: Understanding&quot;,&quot;3: Speaking&quot;,&quot;4: Moving and Handling&quot;,&quot;5: Health and Self-Care&quot;,&quot;6: Self-confidence and Self-awareness&quot;,&quot;7: Managing feelings and behaviour&quot;,&quot;8: Making relationships&quot;,&quot;9: Reading&quot;]},&quot;title&quot;:&quot;Learning sub-category (lower)&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
 >
@@ -1198,12 +1198,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20210811101513'></script>
+<script src='/site/assets/js/sdg.js?v=20210811110747'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20210811101513"></script><script>
+    <script src="/site/assets/js/custom.js?v=20210811110747"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
