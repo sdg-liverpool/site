@@ -129,7 +129,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210818145215">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210818145947">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -844,7 +844,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.IND_DEF_CON_CLASS__GLOBAL'));
       try {
-        var currentValue = normalizeCurrentValue('STAT_CONC_DEF__GLOBAL', "'Disposal Method' refers to the waste management type.\n\nLandfill estimates include recycling, composting or reuse rejects.\n\n'Incineration with EfW' - EfW is energy from waste. Also included are amounts rejected for recycling, composting or reuse where incineration with EfW is reported as the final destination of these rejects.\n\nRecycled-composted' includes household and non-household sources sent for recycling or for centralised composting; home composting estimates are not included in this total. It also includes small amounts of materials sent for reuse. Material which was collected for recycling but actually rejected at collection, by the MRF or at the gate of a recycling reprocessor is excluded. The percentage of waste recycled shown above relate to all Local Authority collected waste and so are different to local authority “household” recycling rates or the slightly narrower “waste from household” definitions. The [Annual Results tables](https://www.gov.uk/government/statistics/local-authority-collected-waste-management-annual-results) provide further statistics and detail on these.\n\n'Other' includes waste treated or disposed through other unspecified treatment processes as well as process and moisture loss.");
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF__GLOBAL', "'Disposal Method' refers to the waste management type.\n\nLandfill estimates include recycling, composting or reuse rejects.\n\n'Incineration with EfW' - EfW is energy from waste. Also included are amounts rejected for recycling, composting or reuse where incineration with EfW is reported as the final destination of these rejects.\n\n'Recycled-composted' includes household and non-household sources sent for recycling or for centralised composting; home composting estimates are not included in this total. It also includes small amounts of materials sent for reuse. Material which was collected for recycling but actually rejected at collection, by the MRF or at the gate of a recycling reprocessor is excluded. The percentage of waste recycled shown above relate to all Local Authority collected waste and so are different to local authority “household” recycling rates or the slightly narrower “waste from household” definitions. The [Annual Results tables](https://www.gov.uk/government/statistics/local-authority-collected-waste-management-annual-results) provide further statistics and detail on these.\n\n'Other' includes waste treated or disposed through other unspecified treatment processes as well as process and moisture loss.");
         var propertyEditor = editor.getEditor('root.STAT_CONC_DEF__GLOBAL');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1348,7 +1348,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.IND_DEF_CON_CLASS'));
       try {
-        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "'Disposal Method' refers to the waste management type. Landfill estimates include recycling, composting or reuse rejects. 'Incineration with EfW' - EfW is energy from waste. Also included are amounts rejected for recycling, composting or reuse where incineration with EfW is reported as the final destination of these rejects. Recycled-composted' includes household and non-household sources sent for recycling or for centralised composting; home composting estimates are not included in this total. It also includes small amounts of materials sent for reuse. Material which was collected for recycling but actually rejected at collection, by the MRF or at the gate of a recycling reprocessor is excluded. The percentage of waste recycled shown above relate to all Local Authority collected waste and so are different to local authority “household” recycling rates or the slightly narrower “waste from household” definitions. The [Annual Results tables] (https://www.gov.uk/government/statistics/local-authority-collected-waste-management-annual-results) provide further statistics and detail on these. 'Other' includes waste treated or disposed through other unspecified treatment processes as well as process and moisture loss.");
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "'Disposal Method' refers to the waste management type. \n\nLandfill estimates include recycling, composting or reuse rejects. \n\n'Incineration with EfW' - EfW is energy from waste. Also included are amounts rejected for recycling, composting or reuse where incineration with EfW is reported as the final destination of these rejects. \n\n'Recycled-composted' includes household and non-household sources sent for recycling or for centralised composting; home composting estimates are not included in this total. It also includes small amounts of materials sent for reuse. Material which was collected for recycling but actually rejected at collection, by the MRF or at the gate of a recycling reprocessor is excluded. The percentage of waste recycled shown above relate to all Local Authority collected waste and so are different to local authority “household” recycling rates or the slightly narrower “waste from household” definitions. The [Annual Results tables] (https://www.gov.uk/government/statistics/local-authority-collected-waste-management-annual-results) provide further statistics and detail on these. \n\n'Other' includes waste treated or disposed through other unspecified treatment processes as well as process and moisture loss.");
         var propertyEditor = editor.getEditor('root.STAT_CONC_DEF');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1648,7 +1648,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url_text'));
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/sdg-liverpool/data/commit/2bb7d0130a4766dc1332c8241ece4ea2f8d618d0");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/sdg-liverpool/data/commit/d208e34e23691a7ebde0977ae847b1bfb178eff0");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1660,7 +1660,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url'));
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2021-08-13: see changes on GitHub");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2021-08-18: see changes on GitHub");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1793,12 +1793,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20210818145215'></script>
+<script src='/site/assets/js/sdg.js?v=20210818145947'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20210818145215"></script><script>
+    <script src="/site/assets/js/custom.js?v=20210818145947"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
