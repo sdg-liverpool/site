@@ -129,7 +129,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210819125442">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210819130900">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -1396,7 +1396,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SRC_TYPE_COLL_METHOD'));
       try {
-        var currentValue = normalizeCurrentValue('SOURCE_TYPE', "Domestic abuse prevalence and victim characteristics");
+        var currentValue = normalizeCurrentValue('SOURCE_TYPE', "Domestic abuse prevalence and victim characteristics\n\nData from tables 7a (2018/19) and 7 (2019/20)");
         var propertyEditor = editor.getEditor('root.SOURCE_TYPE');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1504,7 +1504,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.RATIONALE'));
       try {
-        var currentValue = normalizeCurrentValue('REC_USE_LIM', "Due to disaggregation not available at the local level, this data represents the North West of England as opposed to Liverpool. Data acquired from tables 7a (2018/19) and 7 (2019/20). ");
+        var currentValue = normalizeCurrentValue('REC_USE_LIM', "Due to disaggregation not available at the local level, this data represents the North West of England as opposed to Liverpool. ");
         var propertyEditor = editor.getEditor('root.REC_USE_LIM');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1648,7 +1648,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url_text'));
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/sdg-liverpool/data/commit/2cbe22d2b00e8cda7f4c44e1e12c09ac0fd4d5c8");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/sdg-liverpool/data/commit/ebe71bac5beae37d96e7c07eef702a75b88d52f6");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1660,7 +1660,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url'));
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2021-08-16: see changes on GitHub");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2021-08-19: see changes on GitHub");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1793,12 +1793,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20210819125442'></script>
+<script src='/site/assets/js/sdg.js?v=20210819130900'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20210819125442"></script><script>
+    <script src="/site/assets/js/custom.js?v=20210819130900"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
