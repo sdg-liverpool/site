@@ -129,7 +129,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210820080157">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210820085128">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -844,7 +844,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.IND_DEF_CON_CLASS__GLOBAL'));
       try {
-        var currentValue = normalizeCurrentValue('STAT_CONC_DEF__GLOBAL', "Population growth rate = Natural logarithm ( Measurement year population / Previous population ) / Time between the measurement periods\n\nLand consumption rate = Natural logarithm ( Measurement year manmade land area / Previous manmade land area ) / Time between the measurement periods\n\nRatio of land consumption rate to population growth rate = Land consumption rate / Population growth rate");
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF__GLOBAL', "");
         var propertyEditor = editor.getEditor('root.STAT_CONC_DEF__GLOBAL');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1012,7 +1012,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.REC_USE_LIM__GLOBAL'));
       try {
-        var currentValue = normalizeCurrentValue('DATA_COMP__GLOBAL', "The indicator is a comparison between 2013 and 2016 data on land consumption. Data was provided on land cover as manmade, unclassified, Natural or Mixed. For the calculation of this indicator, manmade was filtered out to calculate land consumption. Unclassified would cover land for which there may be building plans. ");
+        var currentValue = normalizeCurrentValue('DATA_COMP__GLOBAL', "The indicator is a comparison between 2013 and 2016 data on land consumption. Data was provided on land cover as manmade, unclassified, Natural or Mixed. For the calculation of this indicator, manmade was filtered out to calculate land consumption. Unclassified would cover land for which there may be building plans. \n\nPopulation growth rate = Natural logarithm ( Measurement year population / Previous population ) / Time between the measurement periods\n\nLand consumption rate = Natural logarithm ( Measurement year manmade land area / Previous manmade land area ) / Time between the measurement periods\n\nRatio of land consumption rate to population growth rate = Land consumption rate / Population growth rate");
         var propertyEditor = editor.getEditor('root.DATA_COMP__GLOBAL');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1348,7 +1348,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.IND_DEF_CON_CLASS'));
       try {
-        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "Population growth rate = Natural logarithm ( Measurement year population / Previous population ) / Time between the measurement periods\n\nLand consumption rate = Natural logarithm ( Measurement year manmade land area / Previous manmade land area ) / Time between the measurement periods\n\nRatio of land consumption rate to population growth rate = Land consumption rate / Population growth rate");
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "");
         var propertyEditor = editor.getEditor('root.STAT_CONC_DEF');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1516,7 +1516,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.REC_USE_LIM'));
       try {
-        var currentValue = normalizeCurrentValue('DATA_COMP', "The indicator is a comparison between 2013 and 2016 data on land consumption. Data was provided on land cover as manmade, unclassified, Natural or Mixed. For the calculation of this indicator, manmade was filtered out to calculate land consumption. Unclassified would cover land for which there may be building plans. ");
+        var currentValue = normalizeCurrentValue('DATA_COMP', "The indicator is a comparison between 2013 and 2016 data on land consumption. Data was provided on land cover as manmade, unclassified, Natural or Mixed. For the calculation of this indicator, manmade was filtered out to calculate land consumption. Unclassified would cover land for which there may be building plans. \n\nPopulation growth rate = Natural logarithm ( Measurement year population / Previous population ) / Time between the measurement periods\n\nLand consumption rate = Natural logarithm ( Measurement year manmade land area / Previous manmade land area ) / Time between the measurement periods\n\nRatio of land consumption rate to population growth rate = Land consumption rate / Population growth rate");
         var propertyEditor = editor.getEditor('root.DATA_COMP');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1624,7 +1624,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_DOC'));
       try {
-        var currentValue = normalizeCurrentValue('national_data_update_url', "https://github.com/sdg-liverpool/data/commit/ab29babc474e892037e0d3b381577964fb326cad");
+        var currentValue = normalizeCurrentValue('national_data_update_url', "https://github.com/sdg-liverpool/data/commit/243b9b34c2092bf814887cfbeb67d464f568648d");
         var propertyEditor = editor.getEditor('root.national_data_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1636,7 +1636,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url'));
       try {
-        var currentValue = normalizeCurrentValue('national_data_update_url_text', "2021-08-17: see changes on GitHub");
+        var currentValue = normalizeCurrentValue('national_data_update_url_text', "2021-08-20: see changes on GitHub");
         var propertyEditor = editor.getEditor('root.national_data_update_url_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1648,7 +1648,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url_text'));
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/sdg-liverpool/data/commit/21c1b3593aeba56634dd4df4939b5a454fb52db6");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/sdg-liverpool/data/commit/1980a894c20b30f0180ff0c884ddcbfe3d83dc9a");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1660,7 +1660,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url'));
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2021-08-18: see changes on GitHub");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2021-08-20: see changes on GitHub");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1793,12 +1793,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20210820080157'></script>
+<script src='/site/assets/js/sdg.js?v=20210820085128'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20210820080157"></script><script>
+    <script src="/site/assets/js/custom.js?v=20210820085128"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
