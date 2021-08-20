@@ -129,7 +129,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210820092841">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210820100257">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -844,7 +844,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.IND_DEF_CON_CLASS__GLOBAL'));
       try {
-        var currentValue = normalizeCurrentValue('STAT_CONC_DEF__GLOBAL', "Solar PV- The direct conversion of solar radiation into electricity by the interaction of light with the electrons in a semiconductor device or cell. Bioenergy - renewable energy made from material of recent biological origin derived from plant or animal matter, known as biomass. AD - Anaerobic Digestion is a natural process in which microorganisms break down organic matter, in the absence of oxygen, into biogas (a mixture of carbon dioxide (CO2) and methane) and digestate (a nitrogen-rich fertiliser). The biogas can be used directlyin engines for Combined Heat and Power (CHP), burned to produce heat, or can be cleaned and used in the same way as natural gas or as a vehicle fuel.");
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF__GLOBAL', "Solar PV - The direct conversion of solar radiation into electricity by the interaction of light with the electrons in a semiconductor device or cell. \n\nBioenergy - renewable energy made from material of recent biological origin derived from plant or animal matter, known as biomass. \n\nAD - Anaerobic Digestion is a natural process in which microorganisms break down organic matter, in the absence of oxygen, into biogas (a mixture of carbon dioxide (CO2) and methane) and digestate (a nitrogen-rich fertiliser). The biogas can be used directlyin engines for Combined Heat and Power (CHP), burned to produce heat, or can be cleaned and used in the same way as natural gas or as a vehicle fuel.");
         var propertyEditor = editor.getEditor('root.STAT_CONC_DEF__GLOBAL');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1348,7 +1348,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.IND_DEF_CON_CLASS'));
       try {
-        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "Solar PV- The direct conversion of solar radiation into electricity by the interaction of light with the electrons in a semiconductor device or cell. Bioenergy - renewable energy made from material of recent biological origin derived from plant or animal matter, known as biomass. AD - Anaerobic Digestion is a natural process in which microorganisms break down organic matter, in the absence of oxygen, into biogas (a mixture of carbon dioxide (CO2) and methane) and digestate (a nitrogen-rich fertiliser). The biogas can be used directlyin engines for Combined Heat and Power (CHP), burned to produce heat, or can be cleaned and used in the same way as natural gas or as a vehicle fuel.\n\nCalculations - Type of Energy (in Watts)/Population");
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "Solar PV - The direct conversion of solar radiation into electricity by the interaction of light with the electrons in a semiconductor device or cell. \n\nBioenergy - renewable energy made from material of recent biological origin derived from plant or animal matter, known as biomass. \n\nAD - Anaerobic Digestion is a natural process in which microorganisms break down organic matter, in the absence of oxygen, into biogas (a mixture of carbon dioxide (CO2) and methane) and digestate (a nitrogen-rich fertiliser). The biogas can be used directlyin engines for Combined Heat and Power (CHP), burned to produce heat, or can be cleaned and used in the same way as natural gas or as a vehicle fuel.");
         var propertyEditor = editor.getEditor('root.STAT_CONC_DEF');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1516,7 +1516,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.REC_USE_LIM'));
       try {
-        var currentValue = normalizeCurrentValue('DATA_COMP', "");
+        var currentValue = normalizeCurrentValue('DATA_COMP', "Type of Energy (in Watts)/Population");
         var propertyEditor = editor.getEditor('root.DATA_COMP');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1648,7 +1648,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url_text'));
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/sdg-liverpool/data/commit/ef674197a4e48690b46c062ea16cdc0c4fbe3cfe");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/sdg-liverpool/data/commit/c6ea3c7e6ab26c4f8b8dd0964dca5428a0886551");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1660,7 +1660,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url'));
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2021-08-17: see changes on GitHub");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2021-08-20: see changes on GitHub");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1793,12 +1793,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20210820092841'></script>
+<script src='/site/assets/js/sdg.js?v=20210820100257'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20210820092841"></script><script>
+    <script src="/site/assets/js/custom.js?v=20210820100257"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
