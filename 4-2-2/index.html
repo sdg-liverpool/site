@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210826143416">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210826144139">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -588,6 +588,8 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>Source: Department for Education</p>
+    
     
     <p>Geographical Area: Liverpool</p>
     
@@ -877,6 +879,9 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>Department for Education</dd>
+        
 
         
         <dt>Geographical Area:</dt>
@@ -918,6 +923,9 @@ opensdg.chartConfigAlter(function(config, info) {
 <div id="selectionTableFooter" class="table-footer-text">
   <h5 class="sr-only">Chart details</h5>
     <dl>
+        
+        <dt>Source:</dt>
+        <dd>Department for Education</dd>
         
 
         
@@ -1174,7 +1182,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measure </th>
         <td>
           
-            <p>Percentage (%) of children benefitting from early funded education places</p>
+            <p>Percentage (%)</p>
 
           
         </td>
@@ -1196,7 +1204,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>Department for Education - Provision for children under 5, 2019 - main tables</p>
+            <p><a href="https://www.gov.uk/government/statistics/education-provision-children-under-5-years-of-age-january-2019">Education provision: children under 5 years of age, January 2019</a></p>
 
           
         </td>
@@ -1228,10 +1236,13 @@ data-event-label="Change to Sources tab"
   
       
         
+          
+      
+        
       
       
       <tr>
-        <th scope="row">Data providers </th>
+        <th scope="row">Data compilers </th>
         <td>
           
             <p>Department for Education</p>
@@ -1242,9 +1253,6 @@ data-event-label="Change to Sources tab"
         
       
   
-      
-        
-          
       
         
           
@@ -1329,8 +1337,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-liverpool/data/commit/21c2904dcd124d744b35e6771b850e6a8b4d17fd" target="_blank">
-                2021-08-10: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/sdg-liverpool/data/commit/28506099b834aa94759fded0e4e4778032b2cf07" target="_blank">
+                2021-08-26: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1539,20 +1547,7 @@ data-event-label="Change to Sources tab"
           
       
         
-      
-      
-      <tr>
-        <th scope="row">Unit of measure </th>
-        <td>
           
-            <p>Percentage (%)</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1588,20 +1583,7 @@ data-event-label="Change to Sources tab"
           
       
         
-      
-      
-      <tr>
-        <th scope="row">Comment and limitations </th>
-        <td>
           
-            <p>This indicator is being used as an approximation of the UN SDG Indicator. Where possible, we will work to identify or develop UK data to meet the global indicator specification. This indicator has been identified in collaboration with topic experts.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1765,6 +1747,329 @@ data-event-label="Change to Sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>Department for Education</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Periodicity </th>
+        <td>
+          
+            <p>Annual</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Earliest available data </th>
+        <td>
+          
+            <p>2011</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
+          
+            <p>Liverpool</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Link to data source </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://www.gov.uk/government/statistics/education-provision-children-under-5-years-of-age-january-2019" target="_blank">
+                Department for Education - Education provision: children under 5 years of age, January 2019 <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Release date </th>
+        <td>
+          
+            Jun 27, 2019
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Next release </th>
+        <td>
+          
+            <p>To be announced</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Statistical classification </th>
+        <td>
+          
+            <p>Official</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Contact details </th>
+        <td>
+          
+            <p>EarlyYears.STATISTICS@education.gov.uk</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+  </div>
+
 
 </div>
 
@@ -1860,12 +2165,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20210826143416'></script>
+<script src='/site/assets/js/sdg.js?v=20210826144139'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20210826143416"></script><script>
+    <script src="/site/assets/js/custom.js?v=20210826144139"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
