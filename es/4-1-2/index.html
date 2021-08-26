@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210826140914">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210826141517">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -696,6 +696,8 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>Fuente: UNESCO Institute for Statistics and The World Bank</p>
+    
     
     <p>Área geográfica: United Kingdom</p>
     
@@ -985,6 +987,9 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Fuente:</dt>
+        <dd>UNESCO Institute for Statistics and The World Bank</dd>
+        
 
         
         <dt>Área geográfica:</dt>
@@ -1026,6 +1031,9 @@ opensdg.chartConfigAlter(function(config, info) {
 <div id="selectionTableFooter" class="table-footer-text">
   <h5 class="sr-only">Chart details</h5>
     <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>UNESCO Institute for Statistics and The World Bank</dd>
         
 
         
@@ -1317,7 +1325,9 @@ data-event-label="Change to Sources tab"
         <th scope="row">Fuentes de datos </th>
         <td>
           
-            <p>Primary completion rate, Lower secondary completion rate</p>
+            <p><a href="https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=GB">Primary completion rate</a></p>
+
+<p><a href="https://data.worldbank.org/indicator/SE.SEC.CMPT.LO.ZS?end=2018&amp;locations=GB&amp;start=2017&amp;view=chart">Lower secondary completion rate</a></p>
 
           
         </td>
@@ -1349,10 +1359,13 @@ data-event-label="Change to Sources tab"
   
       
         
+          
+      
+        
       
       
       <tr>
-        <th scope="row">Proveedores de datos </th>
+        <th scope="row">Compiladores de datos </th>
         <td>
           
             <p>UNESCO Institute for Statistics and The World Bank</p>
@@ -1374,16 +1387,13 @@ data-event-label="Change to Sources tab"
           
       
         
-          
-      
-        
       
       
       <tr>
         <th scope="row">Comentarios y limitaciones </th>
         <td>
           
-            <p>Due to disaggregation not available at the local level, this data represents the whole of the United Kingdom of England as opposed to Liverpool. Since data is around 100%, this has been extrapolated to assume that Liverpool’s data will be similar.</p>
+            <p>Due to disaggregation not available at the local level, this data represents the United Kingdom as opposed to Liverpool. Since data is around 100%, this has been extrapolated to assume that Liverpool’s data will be similar.</p>
 
 <p>There are many reasons why the primary and lower secondary completion rate can exceed 100 percent - the numerator may include late entrants and overage children who have repeated one or more grades of primary education as well as children who entered school early, while the denominator is the number of children at the entrance age for the last grade of primary education.</p>
 
@@ -1467,8 +1477,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-liverpool/data/commit/d7fde59d7f9b74f4c4a33dc6edfbff544b33442d" target="_blank">
-                2021-08-17: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="https://github.com/sdg-liverpool/data/commit/89287abc3042b7d34bb804086915c5c54962770b" target="_blank">
+                2021-08-26: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -1674,20 +1684,7 @@ data-event-label="Change to Sources tab"
           
       
         
-      
-      
-      <tr>
-        <th scope="row">Definición y conceptos </th>
-        <td>
           
-            <p>Primary and lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower primary/secondary education. It is calculated as the number of new entrants (enrollments minus repeaters) in the last grade of primary/lower secondary education, regardless of age, divided by the population at the entrance age for the last grade of primary/lower secondary education.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
       
@@ -1739,22 +1736,7 @@ data-event-label="Change to Sources tab"
           
       
         
-      
-      
-      <tr>
-        <th scope="row">Comentarios y limitaciones </th>
-        <td>
           
-            <p>There are many reasons why the primary and lower secondary completion rate can exceed 100 percent - the numerator may include late entrants and overage children who have repeated one or more grades of primary education as well as children who entered school early, while the denominator is the number of children at the entrance age for the last grade of primary education.</p>
-
-<p>This indicator is being used as an approximation of the UN SDG Indicator. Where possible, we will work to identify or develop UK data to meet the global indicator specification. This indicator has been identified in collaboration with topic experts.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1918,6 +1900,652 @@ data-event-label="Change to Sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Fuente 1</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>UNESCO Institute for Statistics and The World Bank</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            <p>Annual</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Los datos disponibles más antiguos </th>
+        <td>
+          
+            <p>2015</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            <p>United Kingdom</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Enlace a la fuente de datos </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=GB" target="_blank">
+                The World Bank - Primary completion rate, total (% of relevant age group) - United Kingdom <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Fecha de lanzamiento </th>
+        <td>
+          
+            Sep 01, 2020
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Siguiente lanzamiento </th>
+        <td>
+          
+            <p>To be announced</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Clasificación estadística </th>
+        <td>
+          
+            <p>Official</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Detalles de contacto </th>
+        <td>
+          
+            <p>uis.datarequests@unesco.org</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Fuente 2</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>UNESCO Institute for Statistics and The World Bank</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            <p>Annual</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Los datos disponibles más antiguos </th>
+        <td>
+          
+            <p>2017</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            <p>United Kingdom</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Enlace a la fuente de datos </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://data.worldbank.org/indicator/SE.SEC.CMPT.LO.ZS?end=2018&locations=GB&start=2017&view=chart" target="_blank">
+                The World Bank - Lower secondary completion rate, total (% of relevant age group) - United Kingdom <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Fecha de lanzamiento </th>
+        <td>
+          
+            Sep 01, 2020
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Siguiente lanzamiento </th>
+        <td>
+          
+            <p>To be announced</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Clasificación estadística </th>
+        <td>
+          
+            <p>Official</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Detalles de contacto </th>
+        <td>
+          
+            <p>uis.datarequests@unesco.org</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+  </div>
+
 
 </div>
 
@@ -2013,12 +2641,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20210826140914'></script>
+<script src='/site/assets/js/sdg.js?v=20210826141517'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20210826140914"></script><script>
+    <script src="/site/assets/js/custom.js?v=20210826141517"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
