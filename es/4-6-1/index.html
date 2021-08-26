@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210826145409">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210826150322">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -704,6 +704,8 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>Fuente: Department for Education</p>
+    
     
     <p>Área geográfica: Liverpool</p>
     
@@ -993,6 +995,9 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Fuente:</dt>
+        <dd>Department for Education</dd>
+        
 
         
         <dt>Área geográfica:</dt>
@@ -1034,6 +1039,9 @@ opensdg.chartConfigAlter(function(config, info) {
 <div id="selectionTableFooter" class="table-footer-text">
   <h5 class="sr-only">Chart details</h5>
     <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>Department for Education</dd>
         
 
         
@@ -1281,7 +1289,20 @@ data-event-label="Change to Sources tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Definición y conceptos </th>
+        <td>
           
+            <p>The fixed level of proficiency is the benchmark of basic knowledge in a domain (literacy or numeracy) measured through learning assessments. Currently, there are no common standards validated by the international community or countries. The indicator shows data published by each of the agencies and organizations specialised in cross-national learning assessments.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1312,7 +1333,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Fuentes de datos </th>
         <td>
           
-            <p>Key stage 4 statistics</p>
+            <p><a href="https://www.gov.uk/government/collections/statistics-gcses-key-stage-4">Statistics: GCSEs (key stage 4)</a></p>
 
           
         </td>
@@ -1331,10 +1352,13 @@ data-event-label="Change to Sources tab"
           
       
         
+          
+      
+        
       
       
       <tr>
-        <th scope="row">Proveedores de datos </th>
+        <th scope="row">Compiladores de datos </th>
         <td>
           
             <p>Department for Education</p>
@@ -1356,10 +1380,20 @@ data-event-label="Change to Sources tab"
           
       
         
-          
       
-        
+      
+      <tr>
+        <th scope="row">Comentarios y limitaciones </th>
+        <td>
           
+            <p>This indicator is being used as an approximation of the UN SDG Indicator.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1432,8 +1466,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-liverpool/data/commit/412a57d7ed2647a400605e4da5600156d3a63470" target="_blank">
-                2021-08-10: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="https://github.com/sdg-liverpool/data/commit/e22898b2eadc6449c4048ca1099675e4fb3e4d0f" target="_blank">
+                2021-08-26: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -1639,36 +1673,10 @@ data-event-label="Change to Sources tab"
           
       
         
-      
-      
-      <tr>
-        <th scope="row">Definición y conceptos </th>
-        <td>
           
-            <p>The fixed level of proficiency is the benchmark of basic knowledge in a domain (literacy or numeracy) measured through learning assessments. Currently, there are no common standards validated by the international community or countries. The indicator shows data published by each of the agencies and organizations specialised in cross-national learning assessments.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
-      
-      
-      <tr>
-        <th scope="row">Unidad de medida </th>
-        <td>
           
-            <p>Percentage (%)</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1704,20 +1712,7 @@ data-event-label="Change to Sources tab"
           
       
         
-      
-      
-      <tr>
-        <th scope="row">Comentarios y limitaciones </th>
-        <td>
           
-            <p>This indicator is being used as an approximation of the UN SDG Indicator. Where possible, we will work to identify or develop UK data to meet the global indicator specification. This indicator has been identified in collaboration with topic experts.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1881,6 +1876,316 @@ data-event-label="Change to Sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>Department for Education</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            <p>Annual</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Los datos disponibles más antiguos </th>
+        <td>
+          
+            <p>2010</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            <p>Liverpool</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Enlace a la fuente de datos </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://www.gov.uk/government/collections/statistics-gcses-key-stage-4" target="_blank">
+                Department for Education - Statistics: GCSEs (key stage 4) <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Fecha de lanzamiento </th>
+        <td>
+          
+            Nov 26, 2020
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Clasificación estadística </th>
+        <td>
+          
+            <p>Official</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Detalles de contacto </th>
+        <td>
+          
+            <p>Attainment.STATISTICS@education.gov.uk</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+  </div>
+
 
 </div>
 
@@ -1976,12 +2281,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20210826145409'></script>
+<script src='/site/assets/js/sdg.js?v=20210826150322'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20210826145409"></script><script>
+    <script src="/site/assets/js/custom.js?v=20210826150322"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
