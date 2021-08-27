@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210827111907">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210827113351">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -716,6 +716,8 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>Fuente: Organisation for Economic Co-operation and Development (OECD)</p>
+    
     
     <p>Área geográfica: United Kingdom</p>
     
@@ -1005,6 +1007,9 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Fuente:</dt>
+        <dd>Organisation for Economic Co-operation and Development (OECD)</dd>
+        
 
         
         <dt>Área geográfica:</dt>
@@ -1046,6 +1051,9 @@ opensdg.chartConfigAlter(function(config, info) {
 <div id="selectionTableFooter" class="table-footer-text">
   <h5 class="sr-only">Chart details</h5>
     <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>Organisation for Economic Co-operation and Development (OECD)</dd>
         
 
         
@@ -1324,7 +1332,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Fuentes de datos </th>
         <td>
           
-            <p>Wastewater treatment (% population connected)</p>
+            <p><a href="https://stats.oecd.org/index.aspx?DataSetCode=water_treat#">Wastewater treatment (% population connected)</a></p>
 
           
         </td>
@@ -1356,13 +1364,16 @@ data-event-label="Change to Sources tab"
   
       
         
+          
+      
+        
       
       
       <tr>
-        <th scope="row">Proveedores de datos </th>
+        <th scope="row">Compiladores de datos </th>
         <td>
           
-            <p>WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene</p>
+            <p>Organisation for Economic Co-operation and Development (OECD)</p>
 
           
         </td>
@@ -1370,9 +1381,6 @@ data-event-label="Change to Sources tab"
         
       
   
-      
-        
-          
       
         
           
@@ -1392,7 +1400,15 @@ data-event-label="Change to Sources tab"
           
             <p>This data represents the United Kingdom as opposed to Liverpool. Since UK data does not disaggregate to local level, and statistics are close to 100%, this has been extrapolated to assume that Liverpool data would resemble this.</p>
 
-<p>A framework for measuring faecal waste flows and safety factors has been developed and piloted in 12 countries (World Bank Water and Sanitation Program, 2014), and is being adopted and scaled up within the sanitation sector. This framework has served as the basis for indicators 6.2.1 and 6.3.1. Data on safe disposal and treatment are not available for all countries. However, sufficient data were available to make global and regional estimates of safely managed sanitation services in 2017. Presence of a handwashing station with soap and water does not guarantee that household members consistently wash hands at key times, but has been accepted as the most suitable proxy. Data were available for 70 countries in 2017. At present, UK data does not account for homeless rough sleepers. Data follows the UN specification for this indicator. This indicator has been identified in collaboration with topic experts.</p>
+<p>A framework for measuring faecal waste flows and safety factors has been developed and piloted in 12 countries (World Bank Water and Sanitation Program, 2014), and is being adopted and scaled up within the sanitation sector. This framework has served as the basis for indicators 6.2.1 and 6.3.1.</p>
+
+<p>Data on safe disposal and treatment are not available for all countries. However, sufficient data were available to make global and regional estimates of safely managed sanitation services in 2017.</p>
+
+<p>Presence of a handwashing station with soap and water does not guarantee that household members consistently wash hands at key times, but has been accepted as the most suitable proxy.</p>
+
+<p>Data were available for 70 countries in 2017. At present, UK data does not account for homeless rough sleepers.</p>
+
+<p>Data follows the UN specification for this indicator. This indicator has been identified in collaboration with topic experts.</p>
 
           
         </td>
@@ -1472,8 +1488,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-liverpool/data/commit/f05f86137a1fb2b1065d5894e6946617ea49bc5a" target="_blank">
-                2021-08-13: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="https://github.com/sdg-liverpool/data/commit/b97390be585c726fd41f15f2b6286df378bb0a29" target="_blank">
+                2021-08-27: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -1682,20 +1698,7 @@ data-event-label="Change to Sources tab"
           
       
         
-      
-      
-      <tr>
-        <th scope="row">Unidad de medida </th>
-        <td>
           
-            <p>Percentage (%)</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1731,20 +1734,7 @@ data-event-label="Change to Sources tab"
           
       
         
-      
-      
-      <tr>
-        <th scope="row">Comentarios y limitaciones </th>
-        <td>
           
-            <p>A framework for measuring faecal waste flows and safety factors has been developed and piloted in 12 countries (World Bank Water and Sanitation Program, 2014), and is being adopted and scaled up within the sanitation sector. This framework has served as the basis for indicators 6.2.1 and 6.3.1. Data on safe disposal and treatment are not available for all countries. However, sufficient data were available to make global and regional estimates of safely managed sanitation services in 2017. Presence of a handwashing station with soap and water does not guarantee that household members consistently wash hands at key times, but has been accepted as the most suitable proxy. Data were available for 70 countries in 2017. At present, UK data does not account for homeless rough sleepers. Data follows the UN specification for this indicator. This indicator has been identified in collaboration with topic experts.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1908,6 +1898,329 @@ data-event-label="Change to Sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>Organisation for Economic Co-operation and Development (OECD)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            <p>Annual</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Los datos disponibles más antiguos </th>
+        <td>
+          
+            <p>2000</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            <p>United Kingdom</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Enlace a la fuente de datos </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://stats.oecd.org/index.aspx?DataSetCode=water_treat#" target="_blank">
+                Organisation for Economic Co-operation and Development (OECD) - Wastewater treatment (% population connected) <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Fecha de lanzamiento </th>
+        <td>
+          
+            Mar 01, 2018
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Siguiente lanzamiento </th>
+        <td>
+          
+            <p>To be announced</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Clasificación estadística </th>
+        <td>
+          
+            <p>Not classified</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Detalles de contacto </th>
+        <td>
+          
+            <p>ENV.Stat@oecd.org</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+  </div>
+
 
 </div>
 
@@ -2003,12 +2316,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20210827111907'></script>
+<script src='/site/assets/js/sdg.js?v=20210827113351'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20210827111907"></script><script>
+    <script src="/site/assets/js/custom.js?v=20210827113351"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
