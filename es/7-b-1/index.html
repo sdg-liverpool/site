@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210827120759">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210827123551">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -740,6 +740,8 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>Fuente: Department for Business, Energy & Industrial Strategy</p>
+    
     
     <p>Área geográfica: North West</p>
     
@@ -1029,6 +1031,9 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Fuente:</dt>
+        <dd>Department for Business, Energy & Industrial Strategy, Office for National Statistics</dd>
+        
 
         
         <dt>Área geográfica:</dt>
@@ -1070,6 +1075,9 @@ opensdg.chartConfigAlter(function(config, info) {
 <div id="selectionTableFooter" class="table-footer-text">
   <h5 class="sr-only">Chart details</h5>
     <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>Department for Business, Energy & Industrial Strategy, Office for National Statistics</dd>
         
 
         
@@ -1273,7 +1281,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organización </th>
         <td>
           
-            <p>Department for Business, Energy &amp; Industrial Strategy</p>
+            <p>Department for Business, Energy &amp; Industrial Strategy, Office for National Statistics</p>
 
           
         </td>
@@ -1365,7 +1373,9 @@ data-event-label="Change to Sources tab"
         <th scope="row">Fuentes de datos </th>
         <td>
           
-            <p>Regional Installed Capacity</p>
+            <p><a href="https://www.gov.uk/government/statistics/regional-renewable-statistics">Regional Installed Capacity</a></p>
+
+<p><a href="https://www.nomisweb.co.uk/datasets/pestnew">Population estimates</a></p>
 
           
         </td>
@@ -1397,13 +1407,16 @@ data-event-label="Change to Sources tab"
   
       
         
+          
+      
+        
       
       
       <tr>
-        <th scope="row">Proveedores de datos </th>
+        <th scope="row">Compiladores de datos </th>
         <td>
           
-            <p>Department for Business, Energy &amp; Industrial Strategy</p>
+            <p>Department for Business, Energy &amp; Industrial Strategy, Office for National Statistics</p>
 
           
         </td>
@@ -1411,9 +1424,6 @@ data-event-label="Change to Sources tab"
         
       
   
-      
-        
-          
       
         
           
@@ -1441,7 +1451,20 @@ data-event-label="Change to Sources tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Método de cálculo </th>
+        <td>
           
+            <p>Type of Energy (in Watts)/Population</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1511,8 +1534,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-liverpool/data/commit/6e24e21b94e828f7d709a0cfc06525a89ca7a435" target="_blank">
-                2021-08-19: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="https://github.com/sdg-liverpool/data/commit/d2e3828017d8c683d7394234adbbc435b68516e7" target="_blank">
+                2021-08-27: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -1718,40 +1741,10 @@ data-event-label="Change to Sources tab"
           
       
         
-      
-      
-      <tr>
-        <th scope="row">Definición y conceptos </th>
-        <td>
           
-            <p>Solar PV- The direct conversion of solar radiation into electricity by the interaction of light with the electrons in a semiconductor device or cell.</p>
-
-<p>Bioenergy - renewable energy made from material of recent biological origin derived from plant or animal matter, known as biomass.</p>
-
-<p>AD - Anaerobic Digestion is a natural process in which microorganisms break down organic matter, in the absence of oxygen, into biogas (a mixture of carbon dioxide (CO2) and methane) and digestate (a nitrogen-rich fertiliser). The biogas can be used directly in engines for Combined Heat and Power (CHP), burned to produce heat, or can be cleaned and used in the same way as natural gas or as a vehicle fuel.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
-      
-      
-      <tr>
-        <th scope="row">Unidad de medida </th>
-        <td>
           
-            <p>Watts per capita</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1951,6 +1944,665 @@ data-event-label="Change to Sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Fuente 1</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>Department for Business, Energy &amp; Industrial Strategy</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            <p>Annual</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Los datos disponibles más antiguos </th>
+        <td>
+          
+            <p>2003</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            <p>North West England</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Enlace a la fuente de datos </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://www.gov.uk/government/statistics/regional-renewable-statistics" target="_blank">
+                Department for Business, Energy & Industrial Strategy - Regional Renewable Statistics <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Fecha de lanzamiento </th>
+        <td>
+          
+            Sep 24, 2020
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Siguiente lanzamiento </th>
+        <td>
+          
+            <p>To be confirmed</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Clasificación estadística </th>
+        <td>
+          
+            <p>Official</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Detalles de contacto </th>
+        <td>
+          
+            <p>renewablesstatistics@beis.gov.uk</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Fuente 2</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>Office for National Statistics</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            <p>Annual</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Los datos disponibles más antiguos </th>
+        <td>
+          
+            <p>1981</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            <p>North West England</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Enlace a la fuente de datos </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://www.nomisweb.co.uk/datasets/pestnew" target="_blank">
+                Nomis - Population estimates - local authority based by five year age band <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Fecha de lanzamiento </th>
+        <td>
+          
+            Jun 25, 2021
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Siguiente lanzamiento </th>
+        <td>
+          
+            <p>1 September 2022</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Clasificación estadística </th>
+        <td>
+          
+            <p>Official</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Detalles de contacto </th>
+        <td>
+          
+            <p>pop.info@ons.gov.uk</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Otra información </th>
+        <td>
+          
+            <p>Mid-year population estimates used.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+  </div>
+
 
 </div>
 
@@ -2046,12 +2698,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20210827120759'></script>
+<script src='/site/assets/js/sdg.js?v=20210827123551'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20210827120759"></script><script>
+    <script src="/site/assets/js/custom.js?v=20210827123551"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
