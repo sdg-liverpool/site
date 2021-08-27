@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210827091655">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210827094029">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -620,6 +620,8 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>Fuente: NHS Digital</p>
+    
     
     <p>Área geográfica: Liverpool</p>
     
@@ -909,6 +911,9 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Fuente:</dt>
+        <dd>NHS Digital</dd>
+        
 
         
         <dt>Área geográfica:</dt>
@@ -950,6 +955,9 @@ opensdg.chartConfigAlter(function(config, info) {
 <div id="selectionTableFooter" class="table-footer-text">
   <h5 class="sr-only">Chart details</h5>
     <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>NHS Digital</dd>
         
 
         
@@ -1251,7 +1259,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Fuentes de datos </th>
         <td>
           
-            <p>Female Genital Mutilation</p>
+            <p><a href="https://digital.nhs.uk/data-and-information/publications/statistical/female-genital-mutilation#past-publications">Female Genital Mutilation</a></p>
 
           
         </td>
@@ -1273,7 +1281,20 @@ data-event-label="Change to Sources tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Compiladores de datos </th>
+        <td>
           
+            <p>National Health Service (NHS)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1291,7 +1312,9 @@ data-event-label="Change to Sources tab"
         <th scope="row">Comentarios y limitaciones </th>
         <td>
           
-            <p>Values between 1-7 are rounded to 5. All other values are rounded to the nearest 5. 2. Individuals refers to all patients in the reporting period where FGM was identified or a procedure for FGM was undertaken. Each patient is only counted once.</p>
+            <p>Values between 1-7 are rounded to 5. All other values are rounded to the nearest 5.</p>
+
+<p>Individuals refers to all patients in the reporting period where FGM was identified or a procedure for FGM was undertaken. Each patient is only counted once.</p>
 
           
         </td>
@@ -1371,8 +1394,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-liverpool/data/commit/e867a0b82dd52741c716a58912e5fba1e1e9b84a" target="_blank">
-                2021-08-19: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="https://github.com/sdg-liverpool/data/commit/cd22e6b6809f8c0ae471a976a588f55374bbbefa" target="_blank">
+                2021-08-27: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -1578,30 +1601,7 @@ data-event-label="Change to Sources tab"
           
       
         
-      
-      
-      <tr>
-        <th scope="row">Definición y conceptos </th>
-        <td>
           
-            <p>Female genital mutilation/cutting (FGM/C) refers to “all procedures involving partial or total removal of the female external genitalia or other injury to the female genital organs for non-medical reasons” (World Health Organization, Eliminating Female Genital Mutilation - An interagency statement, WHO, UNFPA, UNICEF, UNIFEM, OHCHR, UNHCR, UNECA, UNESCO, UNDP, UNAIDS, WHO, Geneva, 2008, p.4).</p>
-
-<p>The World Health Organisation defines the four types of female genital mutilation as follows -</p>
-
-<p>Type 1 - Partial or total removal of the clitoral glans (the external and visible part of the clitoris, which is a sensitive part of the female genitals, with the function of providing sexual pleasure to the woman), and/or the prepuce/clitoral hood (the fold of skin surrounding the clitoral glans).</p>
-
-<p>Type 2 - Partial or total removal of the clitoral glans and the labia minora (the inner folds of the vulva), with or without removal of the labia majora (the outer folds of skin of the vulva).</p>
-
-<p>Type 3 - (Often referred to as infibulation). Narrowing of the vaginal opening with the creation of a covering seal. The seal is formed by cutting and repositioning the labia minora, or labia majora. The covering of the vaginal opening is done with or without removal of the clitoral prepuce/clitoral hood and glans (Type I FGM).</p>
-
-<p>Type 4 - All other harmful procedures to the female genitalia for non-medical purposes, for example pricking, piercing, incising, scraping and cauterization.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1804,6 +1804,316 @@ data-event-label="Change to Sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>NHS Digital</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            <p>Annual</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Los datos disponibles más antiguos </th>
+        <td>
+          
+            <p>2017/18</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            <p>Liverpool</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Enlace a la fuente de datos </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://digital.nhs.uk/data-and-information/publications/statistical/female-genital-mutilation#past-publications" target="_blank">
+                NHS Digital - Female Genital Mutilation <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Fecha de lanzamiento </th>
+        <td>
+          
+            Jul 25, 2019
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Clasificación estadística </th>
+        <td>
+          
+            <p>Official / Experimental</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Detalles de contacto </th>
+        <td>
+          
+            <p>enquiries@nhsdigital.nhs.uk</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+  </div>
+
 
 </div>
 
@@ -1899,12 +2209,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20210827091655'></script>
+<script src='/site/assets/js/sdg.js?v=20210827094029'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20210827091655"></script><script>
+    <script src="/site/assets/js/custom.js?v=20210827094029"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
