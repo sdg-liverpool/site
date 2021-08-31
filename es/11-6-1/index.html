@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210831101325">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210831102436">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -588,6 +588,8 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>Fuente: Department for Environment, Food and Rural Affairs</p>
+    
     
     <p>Área geográfica: Merseyside Recycling and Waste Authority</p>
     
@@ -877,6 +879,9 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Fuente:</dt>
+        <dd>Department for Environment, Food and Rural Affairs</dd>
+        
 
         
         <dt>Área geográfica:</dt>
@@ -918,6 +923,9 @@ opensdg.chartConfigAlter(function(config, info) {
 <div id="selectionTableFooter" class="table-footer-text">
   <h5 class="sr-only">Chart details</h5>
     <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>Department for Environment, Food and Rural Affairs</dd>
         
 
         
@@ -1217,7 +1225,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Fuentes de datos </th>
         <td>
           
-            <p>ENV18 - Local authority collected waste: annual results tables</p>
+            <p><a href="https://www.gov.uk/government/statistical-data-sets/env18-local-authority-collected-waste-annual-results-tables">ENV18 - Local authority collected waste: annual results tables</a></p>
 
           
         </td>
@@ -1225,6 +1233,9 @@ data-event-label="Change to Sources tab"
         
       
   
+      
+        
+          
       
         
           
@@ -1239,7 +1250,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Proveedores de datos </th>
+        <th scope="row">Compiladores de datos </th>
         <td>
           
             <p>Department for Environment, Food and Rural Affairs</p>
@@ -1250,9 +1261,6 @@ data-event-label="Change to Sources tab"
         
       
   
-      
-        
-          
       
         
           
@@ -1282,7 +1290,20 @@ data-event-label="Change to Sources tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Método de cálculo </th>
+        <td>
           
+            <p>Proportions were calculated as the amount of waste from the selected waste disposal method divided by the total amount of waste collected. The percentage was then calculated by multiplying the proportion by 100.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1352,8 +1373,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-liverpool/data/commit/d208e34e23691a7ebde0977ae847b1bfb178eff0" target="_blank">
-                2021-08-18: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="https://github.com/sdg-liverpool/data/commit/20d4e9c61279f73c3be31966373dd9d4ed58f538" target="_blank">
+                2021-08-31: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -1559,44 +1580,10 @@ data-event-label="Change to Sources tab"
           
       
         
-      
-      
-      <tr>
-        <th scope="row">Definición y conceptos </th>
-        <td>
           
-            <p>‘Disposal Method’ refers to the waste management type.</p>
-
-<p>Landfill estimates include recycling, composting or reuse rejects.</p>
-
-<p>‘Incineration with EfW’ - EfW is energy from waste. Also included are amounts rejected for recycling, composting or reuse where incineration with EfW is reported as the final destination of these rejects.</p>
-
-<p>‘Recycled-composted’ includes household and non-household sources sent for recycling or for centralised composting; home composting estimates are not included in this total. It also includes small amounts of materials sent for reuse. Material which was collected for recycling but actually rejected at collection, by the MRF or at the gate of a recycling reprocessor is excluded. The percentage of waste recycled shown above relate to all Local Authority collected waste and so are different to local authority “household” recycling rates or the slightly narrower “waste from household” definitions. The <a href="https://www.gov.uk/government/statistics/local-authority-collected-waste-management-annual-results">Annual Results tables</a> provide further statistics and detail on these.</p>
-
-<p>‘Other’ includes waste treated or disposed through other unspecified treatment processes as well as process and moisture loss.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
-      
-      
-      <tr>
-        <th scope="row">Unidad de medida </th>
-        <td>
           
-            <p>Percentage (%)</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1632,20 +1619,7 @@ data-event-label="Change to Sources tab"
           
       
         
-      
-      
-      <tr>
-        <th scope="row">Comentarios y limitaciones </th>
-        <td>
           
-            <p>Tables are based on quarterly data entered by LAs onto WasteDataFlow. This data is published annually on a financial year basis (April to March). WasteDataFlow is a web-based system for quarterly reporting on Local Authority collected waste data by local authorities to central government.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1809,6 +1783,329 @@ data-event-label="Change to Sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>Department for Environment, Food and Rural Affairs</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            <p>Annual</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Los datos disponibles más antiguos </th>
+        <td>
+          
+            <p>2014/15</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            <p>Liverpool</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Enlace a la fuente de datos </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://www.gov.uk/government/statistical-data-sets/env18-local-authority-collected-waste-annual-results-tables" target="_blank">
+                Department for Environment, Food and Rural Affairs - ENV18 - Local authority collected waste: annual results tables <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Fecha de lanzamiento </th>
+        <td>
+          
+            Mar 03, 2021
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Clasificación estadística </th>
+        <td>
+          
+            <p>Official</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Detalles de contacto </th>
+        <td>
+          
+            <p>enviro.statistics@defra.gov.uk</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Otra información </th>
+        <td>
+          
+            <p>Data is sourced from the file ‘Local Authority collected waste generation from April 2000 to March 2020…’, Table 2 - Management of Local Authority collected waste - England - 2014/15 - 2019/20.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+  </div>
+
 
 </div>
 
@@ -1904,12 +2201,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20210831101325'></script>
+<script src='/site/assets/js/sdg.js?v=20210831102436'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20210831101325"></script><script>
+    <script src="/site/assets/js/custom.js?v=20210831102436"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
