@@ -129,7 +129,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210901142506">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210901142623">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -844,7 +844,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.IND_DEF_CON_CLASS__GLOBAL'));
       try {
-        var currentValue = normalizeCurrentValue('STAT_CONC_DEF__GLOBAL', "The tuberculosis incidence per 100,000 population as defined as the estimated number of new and relapse TB cases (all forms of TB, including cases in people living with HIV) arising in a given year, expressed as a rate per 100 000 population.");
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF__GLOBAL', "");
         var propertyEditor = editor.getEditor('root.STAT_CONC_DEF__GLOBAL');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -856,7 +856,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.STAT_CONC_DEF__GLOBAL'));
       try {
-        var currentValue = normalizeCurrentValue('UNIT_MEASURE__GLOBAL', "Rate per 100,000 population");
+        var currentValue = normalizeCurrentValue('UNIT_MEASURE__GLOBAL', "");
         var propertyEditor = editor.getEditor('root.UNIT_MEASURE__GLOBAL');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1648,7 +1648,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url_text'));
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/sdg-liverpool/data/commit/d846decee7b264cfdc65afd843cbb1f7d99154fc");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/sdg-liverpool/data/commit/29a58db7a75410825ca89f7dbdd38d30323261b8");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1660,7 +1660,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url'));
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2021-08-25: see changes on GitHub");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2021-09-01: see changes on GitHub");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -2585,12 +2585,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20210901142506'></script>
+<script src='/site/assets/js/sdg.js?v=20210901142623'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20210901142506"></script><script>
+    <script src="/site/assets/js/custom.js?v=20210901142623"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
