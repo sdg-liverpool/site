@@ -129,8 +129,7 @@ hide_empty_metadata: true
 indicator_config_form:
   enabled: true
   dropdowns: []
-  repository_link: >-
-    https://github.com/sdg-liverpool/data/tree/develop/indicator-config
+  repository_link: 'https://github.com/sdg-liverpool/data/tree/develop/indicator-config'
   translation_link: ''
 indicator_data_form:
   enabled: true
@@ -200,6 +199,9 @@ menu:
     dropdown: []
   - path: /news
     translation_key: menu.updates
+    dropdown: []
+  - path: /jargon-buster
+    translation_key: jargon.buster
     dropdown: []
 metadata_edit_url: metadata
 metadata_tabs: []
