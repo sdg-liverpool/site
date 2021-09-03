@@ -201,7 +201,7 @@ menu:
     translation_key: menu.updates
     dropdown: []
   - path: /jargon-buster
-    translation_key: jargon.buster
+    translation_key: Jargon Buster
     dropdown: []
 metadata_edit_url: metadata
 metadata_tabs: []
