@@ -68,36 +68,51 @@ email_contacts:
 environment: staging
 footer_language_toggle: none
 footer_menu:
-  - path: /contact-us
-    translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
-    translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
-    translation_key: general.facebook
+  - path: 'https://the2030hub.com/contact/'
+    translation_key: Contact 2030hub
+  - path: 'https://twitter.com/2030hub'
+    translation_key: Twitter
+  - path: 'http://facebook.com/2030hub'
+    translation_key: Facebook
   - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
+    translation_key: Cookies
 frontpage_cards:
-  - title: frontpage.download_all
+  - title: Download all data
     content: ''
     include: components/download-all-data.html
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
+  - title: Relevant websites and publications
+    content: >-
+      [2030hub](https://the2030hub.com/)
+
+
+      [City Plan for Liverpool](https://cityplanliverpool.co.uk/)
+
+
+      [City Plan for Liverpool -
+      document](https://cityplanliverpool.co.uk/wp-content/uploads/2020/10/City-Plan-Jan21-update.pdf)
     include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
+    button_label: ''
+    button_link: ''
     rule_color: ''
-  - title: Nam vestibulum
-    content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
+  - title: Useful resources
+    content: >-
+      [About Local2030](https://www.local2030.org/about-us.php)
+
+
+      [The Global Goals](https://www.globalgoals.org/)
+
+
+      [Implementing the Sustainable Development
+      Goals](https://www.gov.uk/government/publications/implementing-the-sustainable-development-goals/implementing-the-sustainable-development-goals--2)
+
+
+      [UK data for Sustainable Development Goals](https://sdgdata.gov.uk/)
     include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
+    button_label: ''
+    button_link: ''
     rule_color: ''
 frontpage_goals_grid:
   title: Liverpool data for Sustainable Development Goal indicators
