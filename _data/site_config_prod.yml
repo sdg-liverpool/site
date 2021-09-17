@@ -19,4 +19,4 @@ environment: production
 remote_data_prefix: "https://my-github-org.github.io/open-sdg-data-starter"
 
 analytics:
-  gtag: G-2P1TEJC73Z
+  gtag: G-XR45TRY0J6
