@@ -16,7 +16,7 @@
 
 environment: production
 # Replace my-github-org and open-sdg-data-starter as needed.
-remote_data_prefix: "ttps://liverpool-sdg-data.github.io/data/"
+remote_data_prefix: "https://liverpool-sdg-data.github.io/data/"
 
 analytics:
   gtag: G-XR45TRY0J6
