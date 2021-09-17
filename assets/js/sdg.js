@@ -3136,7 +3136,7 @@ var indicatorView = function (model, options) {
     }));
 
     
-    if (units.length < 1) {
+    if (units.length <= 1) {
     
       $(this._rootElement).addClass('no-units');
     }
@@ -3155,7 +3155,7 @@ var indicatorView = function (model, options) {
       }));
 
       
-      if (serieses.length < 1) {
+      if (serieses.length <= 1) {
       
         $(this._rootElement).addClass('no-serieses');
       }
@@ -4250,6 +4250,14 @@ $(function() {
   });
 
   // Add the cookie settings link in the footer.
+  
+  if (klaroConfig && klaroConfig.noAutoLoad !== true) {
+    var cookieLink = $('<li class="cookie-settings"><a>' + translations.cookies.cookie_settings + '</a></li>');
+    $(cookieLink).click(function() {
+        klaro.show();
+    });
+    $('#footerLinks ul').append(cookieLink);
+  }
   
 });
 /*! @source http://purl.eligrey.com/github/classList.js/blob/master/classList.js */
