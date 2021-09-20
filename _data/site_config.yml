@@ -234,7 +234,7 @@ non_global_metadata: indicator.national_metadata
 remote_data_prefix: 'https://sdg-liverpool.github.io/data/'
 reporting_status:
   title: status.reporting_status
-  description: status.description
+  description: Reporting status provides an overview of how much Sustainable Development Goal (SDG) data Liverpool reports.
   disaggregation_tabs: false
 repository_url_data: 'https://github.com/sdg-liverpool/data'
 repository_url_site: 'https://github.com/sdg-liverpool/site'
