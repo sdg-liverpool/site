@@ -121,7 +121,7 @@ frontpage_cards:
     button_link: ''
     rule_color: ''
 frontpage_goals_grid:
-  title: Welcome to Liverpool's SDG Data Platform.
+  title: Welcome to Liverpool's SDG Data Platform
   description: >-
     Click on each goal for Liverpool statistics for Sustainable Development Goal
     global indicators.
