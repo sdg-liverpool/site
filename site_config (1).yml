@@ -1,0 +1,257 @@
+﻿accessible_charts: true
+accessible_tabs: true
+analytics:
+  ua: ''
+  gtag: ''
+  gtm: ''
+  ga_prod: ''
+breadcrumbs:
+  goal:
+    - path: /
+      label: general.home
+    - path: /goals
+      label: general.goals
+  indicator:
+    - path: /
+      label: general.home
+    - path: /goals
+      label: general.goals
+  post:
+    - path: /
+      label: general.home
+    - path: /news
+      label: menu.updates
+contrast_type: default
+cookie_consent_form:
+  enabled: true
+country:
+  name: Liverpool
+  adjective: Liverpool
+create_goals:
+  layout: goal-by-target
+  previous_next_links: false
+  goals: []
+create_indicators:
+  layout: indicator
+  previous_next_links: false
+create_pages:
+  - filename: ''
+    folder: /
+    layout: frontpage-alt
+    title: ''
+  - filename: ''
+    folder: /goals
+    layout: goals
+    title: ''
+  - filename: ''
+    folder: /reporting-status
+    layout: reportingstatus
+    title: ''
+  - filename: indicators.json
+    folder: /
+    layout: indicator-json
+    title: ''
+  - filename: ''
+    folder: /search
+    layout: search
+    title: ''
+custom_css: []
+custom_js:
+  - /assets/js/custom.js
+data_edit_url: data
+data_fields:
+  units: ''
+  series: ''
+date_formats: []
+disclaimer:
+  phase: ''
+  message: ''
+email_contacts:
+  questions: info@the2030hub.com
+  suggestions: info@the2030hub.com
+  functional: info@the2030hub.com
+environment: staging
+favicons: favicon.io
+footer_language_toggle: none
+footer_menu:
+  - path: 'https://the2030hub.com/contact/'
+    translation_key: Contact 2030hub
+  - path: 'https://twitter.com/2030hub'
+    translation_key: Twitter
+  - path: 'http://facebook.com/2030hub'
+    translation_key: Facebook
+  - path: /about/cookies-and-privacy/
+    translation_key: Cookies
+frontpage_cards:
+  - title: Download all data
+    content: ''
+    include: components/download-all-data.html
+    button_label: ''
+    button_link: ''
+    rule_color: ''
+  - title: Relevant websites and publications
+    content: >-
+      [2030hub](https://the2030hub.com/)
+
+
+      [City Plan for Liverpool](https://cityplanliverpool.co.uk/)
+
+
+      [City Plan for Liverpool -
+      document](https://cityplanliverpool.co.uk/wp-content/uploads/2020/10/City-Plan-Jan21-update.pdf)
+    include: ''
+    button_label: ''
+    button_link: ''
+    rule_color: ''
+  - title: Useful resources
+    content: >-
+      [About Local2030](https://www.local2030.org/about-us.php)
+
+
+      [The Global Goals](https://www.globalgoals.org/)
+
+
+      [Implementing the Sustainable Development
+      Goals](https://www.gov.uk/government/publications/implementing-the-sustainable-development-goals/implementing-the-sustainable-development-goals--2)
+
+
+      [UK data for Sustainable Development Goals](https://sdgdata.gov.uk/)
+    include: ''
+    button_label: ''
+    button_link: ''
+    rule_color: ''
+frontpage_goals_grid:
+  title: Liverpool data for Sustainable Development Goal indicators
+  description: >-
+    Click on each goal for Liverpool statistics for Sustainable Development Goal
+    global indicators.
+frontpage_heading: ''
+frontpage_instructions: ' '
+frontpage_introduction_banner:
+  title: Welcome to Liverpool’s SDG Data Platform
+  description: >-
+    This is an open data platform for Liverpool to help in the achievement of
+    the Sustainable Development Goals (SDGs). This platform is constantly
+    developing with the local community of Liverpool City Region in mind.
+goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
+goal_image_extension: ''
+goals_page:
+  title: general.goals
+  description: >-
+    Click on each goal to see Liverpool statistics for Sustainable Development
+    Goal global indicators.
+graph_color_headline: '#004466'
+graph_color_headline_high_contrast: '#55a6e5'
+graph_color_set: accessible
+graph_color_list: []
+graph_color_number: 0
+graph_title_from_series: false
+header:
+  include: header-menu-left-aligned.html
+header_language_toggle: dropdown
+hide_empty_metadata: true
+hide_single_series: true
+hide_single_unit: true
+indicator_config_form:
+  enabled: true
+  dropdowns: []
+  repository_link: 'https://github.com/sdg-liverpool/data/tree/develop/indicator-config'
+  translation_link: ''
+indicator_data_form:
+  enabled: true
+  repository_link: 'https://github.com/sdg-liverpool/data/tree/develop/data'
+indicator_metadata_form:
+  enabled: true
+  dropdowns: []
+  repository_link: 'https://github.com/sdg-liverpool/data/tree/develop/meta'
+  translation_link: ''
+  language: ''
+  scopes:
+    - national
+    - global
+    - source_1
+    - source_2
+    - source_3
+    - source_4
+    - source_5
+    - source_6
+  exclude_fields: []
+  translated: false
+languages:
+  - en
+languages_public: []
+logos: []
+map_layers: []
+map_options:
+  minZoom: 5
+  maxZoom: 10
+  tileURL: ''
+  tileOptions:
+    id: ''
+    accessToken: ''
+    attribution: ''
+  colorRange: chroma.brewer.BuGn
+  noValueColor: '#f0f0f0'
+  styleNormal:
+    weight: 1
+    opacity: 1
+    fillOpacity: 0.7
+    color: '#888888'
+    dashArray: ''
+  styleHighlighted:
+    weight: 1
+    opacity: 1
+    fillOpacity: 0.7
+    color: '#111111'
+    dashArray: ''
+  styleStatic:
+    weight: 2
+    opacity: 1
+    fillOpacity: 0
+    color: '#172d44'
+    dashArray: '5,5'
+menu:
+  - path: /goals
+    translation_key: general.goals
+    dropdown: []
+  - path: /reporting-status
+    translation_key: menu.reporting_status
+    dropdown: []
+  - path: /about
+    translation_key: menu.about
+    dropdown: []
+  - path: /faq
+    translation_key: menu.faq
+    dropdown: []
+  - path: /news
+    translation_key: menu.updates
+    dropdown: []
+  - path: /jargon-buster
+    translation_key: Jargon Buster
+    dropdown: []
+metadata_edit_url: metadata
+metadata_tabs: []
+news:
+  category_links: false
+non_global_metadata: indicator.national_metadata
+remote_data_prefix: 'https://sdg-liverpool.github.io/data/'
+reporting_status:
+  title: status.reporting_status
+  description: >-
+    Reporting status provides an overview of how much Sustainable Development
+    Goal (SDG) data Liverpool reports.
+  disaggregation_tabs: false
+repository_url_data: 'https://github.com/sdg-liverpool/data'
+repository_url_site: 'https://github.com/sdg-liverpool/site'
+search_index_boost: []
+search_index_extra_fields: []
+series_toggle: true
+sharethis_property: ''
+site_config_form:
+  enabled: true
+  dropdowns: []
+  repository_link: 'https://github.com/sdg-liverpool/site/tree/develop/_data'
+  translation_link: ''
+validate_indicator_config: false
+validate_site_config: false
+x_axis_label: ''
