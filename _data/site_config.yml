@@ -121,15 +121,15 @@ frontpage_cards:
     button_link: ''
     rule_color: ''
 frontpage_goals_grid:
-  title: Welcome to Liverpool's SDG Data Platform
+  title: Liverpool data for SDG indicators
   description: >-
     Click on each goal for Liverpool statistics for Sustainable Development Goal
     global indicators.
 frontpage_heading: ''
 frontpage_instructions: ''
 frontpage_introduction_banner:
-  title: frontpage.intro_title
-  description: frontpage.intro_body
+  title: Welcome to Liverpool's SDG Data Platform
+  description: This is an open data platform for Liverpool to help in achievement of the Sustainable Development Goals (SDGs). This platform is constantly developing with the local community of Liverpool City Region in mind.
 goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
 goal_image_extension: ''
 goals_page:
