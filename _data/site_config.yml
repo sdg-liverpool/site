@@ -89,6 +89,13 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
+    - title: Events
+    content: >-
+      [25th Janurary 2022, Data Platform First Inaugural Working Group Meeting](https://www.eventbrite.co.uk/e/liverpool-sdg-data-platform-inaugural-working-group-meeting-tickets-211678695677/)
+    include: ''
+    button_label: ''
+    button_link: ''
+    rule_color: ''
   - title: Relevant websites and publications
     content: >-
       [2030hub](https://the2030hub.com/)
