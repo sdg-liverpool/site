@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20211213103848">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20211213113123">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -899,7 +899,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('frontpage_cards', [{"title":"Download all data","content":"","include":"components/download-all-data.html","button_label":"","button_link":"","rule_color":""},{"title":"Relevant websites and publications","content":"[2030hub](https://the2030hub.com/)\n\n[City Plan for Liverpool](https://cityplanliverpool.co.uk/)\n\n[City Plan for Liverpool - document](https://cityplanliverpool.co.uk/wp-content/uploads/2020/10/City-Plan-Jan21-update.pdf)","include":"","button_label":"","button_link":"","rule_color":""},{"title":"Useful resources","content":"[About Local2030](https://www.local2030.org/about-us.php)\n\n[The Global Goals](https://www.globalgoals.org/)\n\n[Implementing the Sustainable Development Goals](https://www.gov.uk/government/publications/implementing-the-sustainable-development-goals/implementing-the-sustainable-development-goals--2)\n\n[UK data for Sustainable Development Goals](https://sdgdata.gov.uk/)","include":"","button_label":"","button_link":"","rule_color":""}]);
+        var currentValue = normalizeCurrentValue('frontpage_cards', [{"title":"Download all data","content":"","include":"components/download-all-data.html","button_label":"","button_link":"","rule_color":""},{"title":"Relevant websites and publications","content":"[2030hub](https://the2030hub.com/)\n\n[City Plan for Liverpool](https://cityplanliverpool.co.uk/)\n\n[City Plan for Liverpool - document](https://cityplanliverpool.co.uk/wp-content/uploads/2020/10/City-Plan-Jan21-update.pdf)","include":"","button_label":"","button_link":"","rule_color":""},{"title":"Useful resources","content":"[About Local2030](https://www.local2030.org/about-us.php)\n\n[The Global Goals](https://www.globalgoals.org/)\n\n[Implementing the Sustainable Development Goals](https://www.gov.uk/government/publications/implementing-the-sustainable-development-goals/implementing-the-sustainable-development-goals--2)\n\n[UK data for Sustainable Development Goals](https://sdgdata.gov.uk/)","include":"","button_label":"","button_link":"","rule_color":""},{"title":"Events","content":"[Inaugural Working Group - First Meeting 25th January 2022](https://www.eventbrite.co.uk/e/liverpool-sdg-data-platform-inaugural-working-group-meeting-tickets-211678695677)\n","include":"","button_label":"","button_link":"","rule_color":""}]);
         var propertyEditor = editor.getEditor('root.frontpage_cards');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1369,6 +1369,18 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.non_global_metadata'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('progress_status', {"status_heading":"","status_types":[]});
+        var propertyEditor = editor.getEditor('root.progress_status');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: progress_status');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.progress_status'));
 
     
@@ -1399,7 +1411,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('reporting_status', {"title":"status.reporting_status","description":"Reporting status provides an overview of how much Sustainable Development Goal (SDG) data Liverpool reports.","disaggregation_tabs":false,"status_types":[{"value":"complete","label":"status.reported"},{"value":"inprogress","label":"status.statistics_in_progress"},{"value":"notstarted","label":"status.exploring_data_sources"},{"value":"notapplicable","label":"status.not_applicable"}]});
+        var currentValue = normalizeCurrentValue('reporting_status', {"title":"status.reporting_status","description":"Reporting status provides an overview of how much Sustainable Development Goal (SDG) data Liverpool reports.","disaggregation_tabs":false,"status_types":[{"value":"complete","label":"status.reported","hide_on_goal_pages":false},{"value":"inprogress","label":"status.statistics_in_progress","hide_on_goal_pages":false},{"value":"notstarted","label":"status.exploring_data_sources","hide_on_goal_pages":false},{"value":"notapplicable","label":"status.not_applicable","hide_on_goal_pages":false}]});
         var propertyEditor = editor.getEditor('root.reporting_status');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1823,12 +1835,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20211213103848'></script>
+<script src='/site/assets/js/sdg.js?v=20211213113123'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20211213103848"></script><script>
+    <script src="/site/assets/js/custom.js?v=20211213113123"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
