@@ -4,18 +4,67 @@ language: en
 permalink: jargon-buster/
 layout: page
 --- 
+
 The Jargon Buster is a document of terms, definitions and acronyms. It aims to provide simple explanations of common words and phrases used on this platform. 
+
+## Table of Contents
+- [Data](#data)
+
+- [Data Collection](#Data-Collection)
+ 
+- [Dataset](#Dataset)
+
+- [Data Source](#Data-Source)
+
+- [Infographic](#Infographic)
+
+- [Labour Force Survey (LFS)](#Labour-Force-Survey-(LFS))
+
+- [Local Authority (LA)](#Local-authority-(LA))
+
+- [Lower Layer Super Output Area (LSOA)](#Lower-Layer-Super-Output-Area-(LSOA))
+
+- [Machine readable format](#Machine-readable-format)
+
+- [Measure](#Measure)
+
+- [Metadata](#Metadata)
+
+- [Methodology](#Methodology)
+
+- [Open source software](#Open-source-software)
+
+- [Output area (OA)](#Output-area-(OA))
+
+- [Publication](#Publication]
+
+- [Quantitative data](#Quantitative-data)
+
+- [Qualitative data](#Qualitative-data)
+
+- [Release](#Release)
+
+- [Release calendar](#Release-calendar)
+
+- [Release date](#Release-date)
+
+- [Statistical classification](#Statistical-classification)
+
+- [Statistics](#Statistics)
+
+- [Sustainable Development Goals (SDG)s](#Sustainable-Development-Goals-(SDG)s)
+
 
 ## Data
 Facts, measurements, recordings, records, or observations collected by scientists and others, with a minimum of contextual interpretation. Data may be in any format or medium taking the form of writings, notes, numbers, symbols, text, images, films, video, sound recordings, pictorial reproductions, drawings, designs or other graphical representations, procedural manuals, forms, diagrams, work flow charts, equipment descriptions, data files, data processing algorithms, or statistical records.
 
-## Data collection
+## Data Collection
 Methods of deriving information from different sources, including administrative sources, for example using surveys.
 
 ## Dataset
 A collection of related data.
 
-## Data source
+## Data Source
 The data source can be a database, a dataset, a spreadsheet or even hard-coded data. When data are displayed in a web page or application, in a column-row format or other formats, the data are retrieved from the data source and presented in the format defined in the code.
 
 ## Infographic
