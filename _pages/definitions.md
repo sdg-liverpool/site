@@ -10,49 +10,57 @@ The Jargon Buster is a document of terms, definitions and acronyms. It aims to p
 ## Table of Contents
 - [Data](#data)
 
-- [Data Collection](#Data-Collection)
+- [Data Collection](#data-collection)
  
-- [Dataset](#Dataset)
+- [Dataset](#dataset)
 
-- [Data Source](#Data-Source)
+- [Data Source](#data-source)
 
-- [Infographic](#Infographic)
+- [Infographic](#infographic)
 
-- [Labour Force Survey (LFS)](#Labour-Force-Survey-(LFS))
+- [Labour Force Survey (LFS)](#labour-force-survey-lfs)
 
-- [Local Authority (LA)](#Local-authority-(LA))
+- [Local Authority (LA)](#local-authority-la)
 
-- [Lower Layer Super Output Area (LSOA)](#Lower-Layer-Super-Output-Area-(LSOA))
+- [Lower Layer Super Output Area (LSOA)](#lower-layer-super-output-area-lsoa)
 
-- [Machine readable format](#Machine-readable-format)
+- [Machine readable format](#machine-readable-format)
 
-- [Measure](#Measure)
+- [Measure](#measure)
 
-- [Metadata](#Metadata)
+- [Metadata](#metadata)
 
-- [Methodology](#Methodology)
+- [Methodology](#methodology)
 
-- [Open source software](#Open-source-software)
+- [Open source software](#open-source-software)
 
-- [Output area (OA)](#Output-area-(OA))
+- [Output area (OA)](#output-area-oa)
 
-- [Publication](#Publication]
+- [Publication](#publication)
 
-- [Quantitative data](#Quantitative-data)
+- [Quantitative data](#quantitative-data)
 
-- [Qualitative data](#Qualitative-data)
+- [Qualitative data](#qualitative-data)
 
-- [Release](#Release)
+- [Release](#release)
 
-- [Release calendar](#Release-calendar)
+- [Release calendar](#release-calendar)
 
-- [Release date](#Release-date)
+- [Release date](#release-date)
 
-- [Statistical classification](#Statistical-classification)
+- [Statistical classification](#statistical-classification)
 
-- [Statistics](#Statistics)
+- [Statistics](#statistics)
 
-- [Sustainable Development Goals (SDG)s](#Sustainable-Development-Goals-(SDG)s)
+- [Sustainable Development Goals (SDGs)](#sustainable-development-goals-sdgs)
+
+- [Table](#table)
+
+- [Time series](#time-series)
+
+- [Unit of measure](#unit-of-measure)
+
+- [Variable](#variable)
 
 
 ## Data
@@ -70,13 +78,13 @@ The data source can be a database, a dataset, a spreadsheet or even hard-coded d
 ## Infographic
 A visual representation of information or data, such as a chart or diagram.
 
-## Labour Force Survey (LFS)
+## Labour Force Survey LFS
 Quarterly sample of UK households, it measures actual hours worked (not annual leave, etc) by industry, region, employees (EE) and SE.
 
-## Local Authority (LA)
+## Local Authority LA
 A geographical area within England and Wales with a total population between 2,200 and 1,074,000 people, average 160,000 people (includes Unitary Authorities), for example Liverpool. 
 
-## Lower Layer Super Output Area (LSOA)
+## Lower Layer Super Output Area LSOA
 A geographic hierarchy designed to improve the reporting of small area statistics in England and Wales.
 
 ## Machine readable format
@@ -94,7 +102,7 @@ The detailed approaches used to collect, process, produce, and analyse statistic
 ## Open source software
 Open source software is software developed by and for the user community.
 
-## Output area (OA)
+## Output area OA
 Output areas are used across the UK as the base geographical unit for output.  The 2001 Census output areas are designed specifically for statistical purposes. They are based on data from the 2001 Census and were built from postcode units. Output areas are used not only for Census output but also as the basis of super output areas which have been introduced as stable and consistently sized areas for Neighbourhood Statistics. Output areas are generally of size around 125 households and 300 persons, but in England and Wales the minimum threshold is 40 households and 100 individuals.
 
 ## Publication
@@ -121,7 +129,7 @@ A statistical classification is a set of categories which may be assigned to one
 ## Statistics
 Numerical summaries of data obtained by measurement and computation.
 
-## Sustainable Development Goals (SDG)s
+## Sustainable Development Goals SDGs
 A set of 17 global goals, with 169 targets between them, spearheaded by the United Nations through a deliberate process involving 193 member states as well as civil society. The goals are: 1. No poverty, 2. Zero hunger, 3. Good health and well-being, 4. Quality education, 5. Gender equality, 6. Clean water and sanitation, 7. Affordable and clean energy, 8. Decent work and economic growth, 9. Industry, innovation and infrastructure, 10. Reduced inequalities, 11. Sustainable cities and communities, 12. Responsible consumption and production, 13. Climate action, 14. Life below water, 15. Life on land, 16. Peace, justice and strong institutions, and 17. Partnerships for the goals.
 
 ## Table
