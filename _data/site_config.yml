@@ -1,4 +1,4 @@
-﻿accessible_charts: true
+accessible_charts: true
 accessible_tabs: true
 analytics:
   ua: ''
@@ -83,12 +83,6 @@ footer_menu:
   - path: /about/cookies-and-privacy/
     translation_key: Cookies
 frontpage_cards:
-  - title: Download all data
-    content: ''
-    include: components/download-all-data.html
-    button_label: ''
-    button_link: ''
-    rule_color: ''
   - title: Relevant websites and publications
     content: >-
       [2030hub](https://the2030hub.com/)
@@ -103,8 +97,22 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
+  - title: Events
+    content: >
+      [Inaugural Working Group - First Meeting 25th January
+      2022](https://www.eventbrite.co.uk/e/liverpool-sdg-data-platform-inaugural-working-group-meeting-tickets-211678695677)
+    include: ''
+    button_label: ''
+    button_link: ''
+    rule_color: ''
+  - title: Download all data
+    content: ''
+    include: components/download-all-data.html
+    button_label: ''
+    button_link: ''
+    rule_color: ''
   - title: Useful resources
-    content: >-
+    content: >
       [About Local2030](https://www.local2030.org/about-us.php)
 
 
@@ -129,7 +137,10 @@ frontpage_heading: ''
 frontpage_instructions: ''
 frontpage_introduction_banner:
   title: Welcome to Liverpool's SDG Data Platform
-  description: This is an open data platform for Liverpool to help in achieving the Sustainable Development Goals (SDGs). This platform is constantly developing with the support of the local community in the city of Liverpool.
+  description: >-
+    This is an open data platform for Liverpool to help in achieving the
+    Sustainable Development Goals (SDGs). This platform is constantly developing
+    with the support of the local community in the city of Liverpool.
 goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
 goal_image_extension: ''
 goals_page:
@@ -231,11 +242,29 @@ metadata_tabs: []
 news:
   category_links: false
 non_global_metadata: indicator.national_metadata
+progress_status:
+  status_heading: ''
+  status_types: []
 remote_data_prefix: 'https://sdg-liverpool.github.io/data/'
 reporting_status:
   title: status.reporting_status
-  description: Reporting status provides an overview of how much Sustainable Development Goal (SDG) data Liverpool reports.
+  description: >-
+    Reporting status provides an overview of how much Sustainable Development
+    Goal (SDG) data Liverpool reports.
   disaggregation_tabs: false
+  status_types:
+    - value: complete
+      label: status.reported
+      hide_on_goal_pages: false
+    - value: inprogress
+      label: status.statistics_in_progress
+      hide_on_goal_pages: false
+    - value: notstarted
+      label: status.exploring_data_sources
+      hide_on_goal_pages: false
+    - value: notapplicable
+      label: status.not_applicable
+      hide_on_goal_pages: false
 repository_url_data: 'https://github.com/sdg-liverpool/data'
 repository_url_site: 'https://github.com/sdg-liverpool/site'
 search_index_boost: []
