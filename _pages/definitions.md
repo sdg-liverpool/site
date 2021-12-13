@@ -36,7 +36,7 @@ The Jargon Buster is a document of terms, definitions and acronyms. It aims to p
 
 - [Output area (OA)](#Output-area-(OA))
 
-- [Publication](#Publication]
+- [Publication](#Publication)
 
 - [Quantitative data](#Quantitative-data)
 
@@ -53,6 +53,14 @@ The Jargon Buster is a document of terms, definitions and acronyms. It aims to p
 - [Statistics](#Statistics)
 
 - [Sustainable Development Goals (SDG)s](#Sustainable-Development-Goals-(SDG)s)
+
+- [Table](#Table)
+
+- [Time series](#Time-series)
+
+- [Unit of measure](#Unit-of-measure)
+
+- [Variable](#Variable)
 
 
 ## Data
