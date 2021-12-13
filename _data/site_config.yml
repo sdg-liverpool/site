@@ -221,7 +221,7 @@ menu:
     translation_key: menu.faq
     dropdown: []
   - path: /news
-    translation_key: menu.News_and_Events
+    translation_key: News & Events
     dropdown: []
   - path: /jargon-buster
     translation_key: Jargon Buster
