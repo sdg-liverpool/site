@@ -83,12 +83,6 @@ footer_menu:
   - path: /about/cookies-and-privacy/
     translation_key: Cookies
 frontpage_cards:
-  - title: Download all data
-    content: ''
-    include: components/download-all-data.html
-    button_label: ''
-    button_link: ''
-    rule_color: ''
   - title: Relevant websites and publications
     content: >-
       [2030hub](https://the2030hub.com/)
@@ -103,7 +97,21 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Useful resources
+  - title: Events
+    content: >
+      [Inaugural Working Group - First Meeting 25th January
+      2022](https://www.eventbrite.co.uk/e/liverpool-sdg-data-platform-inaugural-working-group-meeting-tickets-211678695677)
+    include: ''
+    button_label: ''
+    button_link: ''
+    rule_color: ''
+     - title: Download all data
+    content: ''
+    include: components/download-all-data.html
+    button_label: ''
+    button_link: ''
+    rule_color: ''
+     - title: Useful resources
     content: >-
       [About Local2030](https://www.local2030.org/about-us.php)
 
@@ -116,14 +124,6 @@ frontpage_cards:
 
 
       [UK data for Sustainable Development Goals](https://sdgdata.gov.uk/)
-    include: ''
-    button_label: ''
-    button_link: ''
-    rule_color: ''
-  - title: Events
-    content: >
-      [Inaugural Working Group - First Meeting 25th January
-      2022](https://www.eventbrite.co.uk/e/liverpool-sdg-data-platform-inaugural-working-group-meeting-tickets-211678695677)
     include: ''
     button_label: ''
     button_link: ''
