@@ -243,8 +243,16 @@ news:
   category_links: false
 non_global_metadata: indicator.national_metadata
 progress_status:
-  status_heading: ''
-  status_types: []
+    status_heading: heading goes here
+    status_types:
+      - value: not_available
+        label: status.progress_not_available
+        image: assets/img/progress/not-available.png
+        alt: status.progress_not_available
+      - value: target_achieved
+        label: status.progress_target_achieved
+        image: assets/img/progress/target-achieved.png
+        alt: status.progress_target_achieved
 remote_data_prefix: 'https://sdg-liverpool.github.io/data/'
 reporting_status:
   title: status.reporting_status
