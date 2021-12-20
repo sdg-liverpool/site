@@ -12,6 +12,8 @@ Other countries or organisations wishing to reuse the Open SDG reporting platfor
 
 If you have comments, feedback, or want to get involved with the Open SDG community please email <opensdg@googlegroups.com> or contact the [Open SDG GitHub](https://github.com/open-sdg/open-sdg).
 
+
+
 ## About the Sustainable Development Goals
 The [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/) (SDGs) are a universal call to action to:
 - End poverty
@@ -20,10 +22,13 @@ The [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sus
 
 The 17 Goals were adopted by all UN Member States in 2015, as part of the [2030 Agenda for Sustainable Development](https://sustainabledevelopment.un.org/post2015/transformingourworld).
 
+
+
 ## About the City of Liverpool
 The City of Liverpool is unofficially the centre of the universe. Steeped in over [800 years of city history](https://www.visitliverpool.com/things-to-do/maritime-and-heritage/history-of-liverpool), cutting-edge innovation, economic dominance (and equal misfortune), and populated by a globally seeded and diverse population of passionate, creative, determined and acclaimed welcoming people, Liverpool is a City, and now also part of a City Region like no other in the world.
  
 This website focuses on the SDG data for the City of Liverpool but also aims to engage and inspire those alongside and those who cross the Liverpool City Region boundaries daily.
+
 
 **Key SDG Milestones**
 - October 2018: [City of Liverpool host World Cities Day](https://liverpoolexpress.co.uk/liverpool-to-host-2018-world-cities-day/)
@@ -35,6 +40,7 @@ This website focuses on the SDG data for the City of Liverpool but also aims to 
 - September 2021: [Liverpool SDG Data Platform launch](https://the2030hub.com/city-of-liverpool-joins-sustainability-pioneers/)
 - October 2021: [City Plan launch](https://cityplanliverpool.co.uk/)
 
+
 **2030hub**
 
 2030hub is the world’s first UN Local2030 Hub, created to make cities and businesses stronger.
@@ -44,6 +50,8 @@ Built around the 17 UN Sustainable Development Goals (also called the Global Goa
 Cities and businesses are rapidly becoming the forefront for sustainable progress and our model provides support through local expertise whilst also providing access to a global community of knowledge and resources.
 
 [Find out more](https://the2030hub.com/)
+
+
 
 ## Need more info?
 Answers to some specific questions about this website are included on our [frequently asked questions]({{ site.baseurl }}{% link _pages/faq.md %}) page.
