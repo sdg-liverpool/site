@@ -8,18 +8,16 @@ permalink: /news/
 
 Check this page for news regarding the reporting of our statistics for global indicators and opportunities to contribute to measuring achievement of the Sustainable Development Goals (SDGs).
 
+## 3rd Working Group Meeting - 6th April 2022
+
+Details to be announced.
+
 ## 2nd Working Group Meeting - 2nd March 2022
 
-The second meeting in convening a multi-stakeholder working group to support the development of Liverpool's SDG Data Platform
-About this event
-2030hub would like to invite you to join the second SDG Data Platform workshop to help co-create a project plan for 2022 and beyond to 2030.
+[2nd March Working Group Meeting Notes](https://drive.google.com/file/d/1DYbb_R1Huqj7dzmIPIFh6ofQnbM4uYL6/view?usp=sharing)
+      
+## Inaugural Working Group Meeting - 25th January 2022
 
-Liverpool is at the forefront of this global sustainability data revolution and 2030hub wants to ensure we can nuture the most inclusive, creative, locally relevant and meaningful platform in the world.
+[25th January Working Group Meeting Notes](https://drive.google.com/file/d/1up30Ws0N5VfLDjgNslEHaVcx_fmJ2pBv/view?usp=sharing)
 
-We are hoping to expand on the discussions initiated in the first workshop around SDG data prioritisation and accessibility of the platform. [Click here](https://www.eventbrite.com/e/liverpool-sdg-data-platform-2nd-working-group-meeting-tickets-264191412627) for tickets.
 
-## Inaugural Working Group Meeting - 25th Jan 2022
-
-A first meeting to begin convening a multi-stakeholder working group to support the further development of Liverpool's SDG Data Platform.
-
-### Meeting notes from past meetings are avaliable upon request, including meeting transcripts and powerpoint slides. Please email Natalya.Edwards@the2030hub.com if you would like access.
