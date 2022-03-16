@@ -93,6 +93,8 @@ frontpage_cards:
 
       [City Plan for Liverpool -
       document](https://cityplanliverpool.co.uk/wp-content/uploads/2020/10/City-Plan-Jan21-update.pdf)
+      
+      [UK Voluntary National Review June 2019](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/818212/UKVNR-web-accessible1.pdf)
     include: ''
     button_label: ''
     button_link: ''
@@ -138,9 +140,10 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Affliated Data Platforms
+  - title: Affiliated Data Platforms
     content: >
       [St Helens SDG Data Platform](https://st-helens-sdg-data.github.io/)
+      [UK National SDG Data Platform](https://sdgdata.gov.uk/)
     include: ''
     button_label: ''
     button_link: ''
