@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220513143837">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220513145325">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -607,7 +607,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDG_GOAL__GLOBAL', "Goal 1: End poverty in all its forms everywhere");
+        var currentValue = normalizeCurrentValue('SDG_GOAL__GLOBAL', "Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable");
         var propertyEditor = editor.getEditor('root.SDG_GOAL__GLOBAL');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -621,7 +621,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDG_TARGET__GLOBAL', "Target 1.5: By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters");
+        var currentValue = normalizeCurrentValue('SDG_TARGET__GLOBAL', "Target 11.5: By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic  losses relative to global gross domestic product caused by disasters,  including water-related disasters, with a focus on protecting the poor  and people in vulnerable situations");
         var propertyEditor = editor.getEditor('root.SDG_TARGET__GLOBAL');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1601,7 +1601,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('REC_USE_LIM', "\n");
+        var currentValue = normalizeCurrentValue('REC_USE_LIM', "");
         var propertyEditor = editor.getEditor('root.REC_USE_LIM');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1769,7 +1769,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/sdg-liverpool/data/commit/22efa37407dcce6e1c2dd4ca7cab1733efecc3ac");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/sdg-liverpool/data/commit/de5df2057db5cf8a367cad219919b8dc6354536d");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1783,7 +1783,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2021-09-02: see changes on GitHub");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-05-13: see changes on GitHub");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -3015,12 +3015,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220513143837'></script>
+<script src='/site/assets/js/sdg.js?v=20220513145325'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220513143837"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220513145325"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
