@@ -78,8 +78,6 @@ footer_menu:
     translation_key: Contact 2030hub
   - path: 'https://twitter.com/2030hub'
     translation_key: Twitter
-  - path: 'http://facebook.com/2030hub'
-    translation_key: Facebook
   - path: /about/cookies-and-privacy/
     translation_key: Cookies
 frontpage_cards:
