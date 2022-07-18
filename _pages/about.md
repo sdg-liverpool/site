@@ -15,7 +15,7 @@ If you have comments, feedback, or want to get involved with the Open SDG commun
 
 
 ## About the Sustainable Development Goals
-The [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/) (SDGs) are a universal call to action to:
+The [Sustainable Development Goals](https://www.un.org/sustainabledevelopment) (SDGs) are a universal call to action to:
 - End poverty
 - Protect the planet
 - Improve the lives and prospects of everyone, everywhere
